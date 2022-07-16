@@ -24,4 +24,5 @@ const showQuote = async () => {
   }
 };
 
+showQuote();
 button.addEventListener("click", showQuote);
