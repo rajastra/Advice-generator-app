@@ -101,12 +101,6 @@ main {
    background-color: currentColor;
 }
 
-img {
-   display: inline-block;
-   width: 2rem;
-   height: 2rem;
-}
-
 .round-button {
    align-self: center;
    display: flex;
@@ -114,6 +108,7 @@ img {
    justify-content: center;
    width: 5rem;
    height: 5rem;
+   font-size: 2.5rem;
    border: none;
    border-radius: 50%;
    text-align: center;
