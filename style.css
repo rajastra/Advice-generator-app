@@ -1,0 +1,140 @@
+:root {
+   --primary-color-1: hsl(193, 38%, 86%);
+   --primary-color-2: hsl(150, 100%, 66%);
+
+}
+
+*,
+*::before,
+*::after {
+   box-sizing: inherit;
+   margin: 0;
+   padding: 0;
+}
+
+html {
+   box-sizing: border-box;
+   font-size: 62.5%;
+}
+
+@media (max-width: 768px) {
+   html {
+      font-size: 56.25%;
+   }
+}
+
+html,
+body {
+   width: 100%;
+   height: 100%;
+}
+
+body {
+   font-family: 'Manrope', sans-serif;
+   background-color: #202632;
+}
+
+main {
+   height: 90%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+}
+
+.text-box {
+   width: 60rem;
+   min-height: 40rem;
+   color: white;
+   background-color: #313a49;
+   text-align: center;
+   padding: 2rem 5rem;
+   border-radius: 1rem;
+   display: flex;
+   flex-direction: column;
+   gap: 2rem;
+   position: relative;
+}
+
+@media (max-width: 600px) {
+   .text-box {
+      width: 90%;
+      padding: 2rem;
+   }
+}
+
+.text-box__id {
+   font-size: 1.5rem;
+   color: var(--primary-color-2);
+}
+
+.text-wrap {
+   min-height: 20rem;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.text-box__quote {
+   font-size: 2.8rem;
+   color: var(--primary-color-1);
+   font-weight: 800;
+}
+
+.text-box__line {
+   display: grid;
+   grid-template-columns: 1fr max-content 1fr;
+   grid-column-gap: 1rem;
+   align-items: center;
+   font-size: 2rem;
+   color: white;
+   font-weight: 800;
+   margin-bottom: 3rem;
+   flex: 1;
+}
+
+.text-box__line::before,
+.text-box__line::after {
+   content: "";
+   height: 1px;
+   display: block;
+   background-color: currentColor;
+}
+
+img {
+   display: inline-block;
+   width: 2rem;
+   height: 2rem;
+}
+
+.round-button {
+   align-self: center;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   width: 5rem;
+   height: 5rem;
+   border: none;
+   border-radius: 50%;
+   text-align: center;
+   background-color: var(--primary-color-2);
+   transition: all .5s;
+   position: absolute;
+   bottom: -2rem;
+   cursor: pointer;
+}
+
+.round-button:hover {
+   box-shadow: 0 0 1rem .5rem hsla(150, 100%, 60%, 0.5);
+}
+
+.attribution {
+   font-size: 1.3rem;
+   text-align: center;
+   padding: 2rem 5rem;
+   color: #c0d4da;
+}
+
+.attribution a {
+   color: #c0d4da;
+}
