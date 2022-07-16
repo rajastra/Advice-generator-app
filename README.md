@@ -24,8 +24,6 @@ Users should be able to:
 
 ### Screenshot
 
-<!-- ![hasil screenshot dari projek yang dibuat](./images/ss-1.pnp) -->
-
 <p align="center">
 <img src="./images/ss-1.png">
 <img src="./images/ss-2.png" width='30%' height='30%'>
@@ -33,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Solution url link](https://github.com/rajastra/Advice-generator-app)
+- Live Site URL: [live site url link](https://rajastra.github.io/Advice-generator-app/)
 
 ## My process
 
@@ -47,15 +45,15 @@ Users should be able to:
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
-To see how you can add code snippets, see below:
+- How to use svg as image
 
 ```html
 <button href="#" class="round-button">
   <img src="/images/icon-dice.svg" alt="icon dice" />
 </button>
 ```
+
+- How to use flexbox and CSS Grid
 
 ```css
 .text-box__line {
@@ -70,6 +68,8 @@ To see how you can add code snippets, see below:
   flex: 1;
 }
 ```
+
+- How to fetch data from an API
 
 ```js
 const showQuote = async () => {
